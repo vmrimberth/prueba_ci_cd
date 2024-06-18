@@ -1,8 +1,9 @@
 <?php
 declare (strict_types=1);
 use PHPUnit\Framework\TestCase;
+include "./Facturacion/Operaciones.php";
 
-class operacion_Test extends TestCase{
+class Operaciones extends TestCase{
 
     public function testFactorial():void{
         $this->assertEquals(30,50);
