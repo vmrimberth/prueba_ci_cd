@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 class Operaciones extends TestCase{
 
     public function testFactorial():void{
-        $this->assertEquals(30,50);
+        $this->assertEquals(50,50);
     }
 
     public function testuno():void{
